@@ -59,7 +59,7 @@ AI-powered academic support ticket classification system using fine-tuned Distil
 ## Deployment
 
 **Demo Deployment:**
-- Notebook includes Flask API (Section 10)
+- Notebook includes Flask API 
 - Cloudflare Tunnel for public access
 - Swagger UI at `/docs` endpoint
 
@@ -83,72 +83,3 @@ The demo covers:
 
 Tanguy Kwizera  
 African Leadership University
-```
-
----
-
-### **4. Record Quick Video (15-20 minutes)**
-
-**Option A: Screen Record Colab (Simplest)**
-
-Use free screen recorder:
-- **Windows:** Xbox Game Bar (Win + G)
-- **Mac:** QuickTime Player (Cmd + Shift + 5)
-- **Chrome Extension:** Loom (free)
-
-**Script (5-7 minutes):**
-```
-00:00 - 00:30 | Introduction
-"Hi, I'm Tanguy Kwizera. This is my ML demo for the Academic Support Ticket Classifier using DistilBERT."
-
-00:30 - 02:00 | Show Notebook
-- Scroll through Sections 1-2 (data generation)
-- "Here I generated 250 labeled training samples across 5 categories"
-- Show Section 3 (visualizations)
-- "Data distribution is balanced across all categories"
-
-02:00 - 04:00 | Training Results
-- Show Section 6 (evaluation)
-- "The model achieved 90.2% accuracy after 3 epochs"
-- Show confusion matrix
-- "You can see strong performance across all categories"
-
-04:00 - 05:30 | API Demo (if working)
-- Show Section 10
-- "I deployed this as a REST API with Swagger UI"
-- Show the public URL
-- Open Swagger in browser (if working)
-- Test one classification
-
-05:30 - 06:00 | Conclusion
-"This system solves the fragmented support problem at ALU by automatically routing tickets. Next steps would be full deployment. Thank you."
-```
-
-**Option B: If API Not Working**
-
-Just show the notebook + explain:
-- "The API deployment is in Section 10"
-- "It creates a public URL with Swagger UI"
-- "Here's how it would work..." (explain the flow)
-
----
-
-### **5. Create the ZIP File**
-
-**On your computer:**
-
-1. Create folder: `tanguy_kwizera_ml_demo`
-2. Put all files inside
-3. Right-click → Compress/Send to → Compressed folder
-4. Rename to: `tanguy_kwizera_ml_demo.zip`
-
----
-
-## **⚡ ABSOLUTE MINIMUM (if very rushed - 30 min total):**
-```
-submission.zip
-├── README.md (10 min - use template above)
-├── academic_support_classifier.ipynb (already have)
-└── screenshots/
-    ├── training_metrics.png (screenshot from notebook)
-    └── confusion_matrix.png (screenshot from notebook)
