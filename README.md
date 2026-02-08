@@ -15,6 +15,9 @@ Classifies student support tickets into 5 categories and automatically routes th
 - **Inference Time:** <500ms
 - **Training Time:** ~2 minutes (GPU)
 
+## Github repo
+https://github.com/ktanguy/staffwork.git
+
 ## Tech Stack
 
 - **Model:** DistilBERT (Hugging Face Transformers)
