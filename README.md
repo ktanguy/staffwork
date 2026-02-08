@@ -1,85 +1,77 @@
-# Academic Support Ticket Classifier - ML Demo
+# Academic Support Ticket Classifier
 
-**Author:** Tanguy Kwizera  
-**Course:** BSc Software Engineering  
-**Institution:** African Leadership University  
-**Date:** February 8, 2026  
-**Supervisor:** Simeon Nsabiyumva
+AI-powered ticket classification system using DistilBERT to automatically categorize and route student support requests.
 
-## Project Description
+## Overview
 
-AI-powered academic support ticket classification system using fine-tuned DistilBERT to automatically categorize and route student support requests.
+Classifies student support tickets into 5 categories and automatically routes them to appropriate departments based on confidence thresholds.
 
-**Categories:**
-- Assignment Issues
-- Grade Appeals
-- Capstone
-- Administrative
-- General Inquiry
+**Categories:** Assignment Issues | Grade Appeals | Capstone | Administrative | General Inquiry
 
-## Files Included
+## Performance
 
-- `academic_support_classifier.ipynb` - Complete training notebook
-- `screenshots/` - Training results and visualizations
-- `demo_video.mp4` - Video demonstration (or link)
-- `README.md` - This file
-
-## How to Run
-
-### Prerequisites
-- Google Colab account
-- GPU runtime (free tier)
-
-### Steps
-1. Upload notebook to Google Colab
-2. Runtime → Change runtime type → GPU
-3. Run all cells sequentially
-4. Model will train in ~2-4 minutes
-5. Section 10 deploys the API with public URL
-
-## Model Performance
-
-- **Architecture:** DistilBERT
-- **Training Epochs:** 3
-- **Training Time:** ~2 minutes (Colab GPU)
 - **Accuracy:** 90.2%
 - **F1-Score:** 89.7%
-- **Precision:** 92.1%
-- **Recall:** 90.2%
+- **Inference Time:** <500ms
+- **Training Time:** ~2 minutes (GPU)
 
-## Technologies Used
+## Tech Stack
 
-- **ML Framework:** PyTorch, Transformers (Hugging Face)
-- **Model:** DistilBERT
-- **API:** Flask, Flask-RESTX (Swagger)
-- **Deployment:** Cloudflare Tunnel (demo)
-- **Visualization:** Matplotlib, Seaborn
+- **Model:** DistilBERT (Hugging Face Transformers)
+- **API:** Flask + Swagger UI
+- **Framework:** PyTorch
 - **Platform:** Google Colab
+  
+## video tutorial:
+https://youtu.be/8qNNNuxweME  
 
-## Deployment
+## Quick Start
 
-**Demo Deployment:**
-- Notebook includes Flask API 
-- Cloudflare Tunnel for public access
-- Swagger UI at `/docs` endpoint
+### Google Colab
 
-**Future Production:**
-- Deploy to Render/Heroku
-- React frontend
-- PostgreSQL database
-- Full integration with university system
+1. Open `_fixed.ipynb` in Colab
+2. Runtime → Change runtime type → GPU
+3. Run all cells
+4. API deploys automatically with public URL
 
-## Video Demo
+### Local Setup
+```bash
+pip install torch transformers flask flask-restx scikit-learn pandas matplotlib seaborn
 
-[Link to video or note that it's included in submission]
+jupyter notebook academic_support_classifier.ipynb
+```
 
-The demo covers:
-1. Notebook walkthrough
-2. Model training and results
-3. API deployment
-4. Live classification examples
+## API Usage
 
-## Contact
+**Classify a ticket:**
+```bash
+curl -X POST https://your-api-url.com/api/classify \
+  -H "Content-Type: application/json" \
+  -d '{"text": "I cant submit my assignment on Canvas"}'
+```
 
-Tanguy Kwizera  
-African Leadership University
+**Response:**
+```json
+{
+  "predicted_category": "Assignment Issues",
+  "confidence": 0.95,
+  "routing_action": "auto_assign",
+  "assigned_to": "Academic Support"
+}
+```
+
+## How It Works
+
+1. Student submits support request
+2. DistilBERT model classifies into 1 of 5 categories
+3. If confidence ≥70% → Auto-assign to department
+4. If confidence <70% → Flag for manual review
+
+
+## Author
+
+**Tanguy Kwizera**  
+
+## License
+
+MIT License
