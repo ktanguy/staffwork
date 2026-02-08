@@ -38,7 +38,7 @@ https://youtu.be/8qNNNuxweME
 ```bash
 pip install torch transformers flask flask-restx scikit-learn pandas matplotlib seaborn
 
-jupyter notebook academic_support_classifier.ipynb
+jupyter notebook _fixed.ipynb
 ```
 
 ## API Usage
