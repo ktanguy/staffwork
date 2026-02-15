@@ -26,7 +26,7 @@ https://github.com/ktanguy/staffwork.git
 - **Platform:** Google Colab
   
 ## video tutorial:
-https://youtu.be/8qNNNuxweME  
+https://drive.google.com/file/d/1GTxEN4jurraM7mhB14F_0OjKRi9OPy3j/view?usp=sharing  
 
 ## Quick Start
 
