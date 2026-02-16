@@ -1,4 +1,4 @@
-# Academic Support Ticket Classifier
+<img width="1919" height="929" alt="Screenshot 2026-02-15 at 3 24 40 PM" src="https://github.com/user-attachments/assets/4d28d8b2-6e46-44b9-a9e8-c51f1491c051" /># Academic Support Ticket Classifier
 
 AI-powered ticket classification system using DistilBERT to automatically categorize and route student support requests.
 
@@ -10,6 +10,15 @@ MVP Screenshots
 1. Admin Dashboard - Analytics Overview
 The admin panel provides comprehensive platform analytics including total students, support tickets, AI resolutions, and satisfaction rates.
 <img width="1680" height="865" alt="Screenshot 2026-02-16 at 3 05 42 PM" src="https://github.com/user-attachments/assets/80df88c1-8991-4795-be50-f3db0b06aecc" />
+<img width="1902" height="927" alt="Screenshot 2026-02-15 at 3 23 18 PM" src="https://github.com/user-attachments/assets/7acebedd-9226-4ac6-ac80-74c983c91465" />
+
+4. Staff Directory - Find Your Facilitator
+Browse the ALU staff directory to find facilitators by name, department, or expertise. Shows availability status and office hours with direct booking capability.
+<img width="1680" height="958" alt="Screenshot 2026-02-16 at 2 53 43 PM" src="https://github.com/user-attachments/assets/c004a06a-aa93-4999-8a01-095d3fa91c24" />
+<img width="1919" height="929" alt="Screenshot 2026-02-15 at 3 24 40 PM" src="https://github.com/user-attachments/assets/c200d50d-55b5-4057-aec9-db00d48d58c8" />
+
+
+
 
 **Categories:** Assignment Issues | Grade Appeals | Capstone | Administrative | General Inquiry
 
