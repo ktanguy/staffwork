@@ -6,6 +6,11 @@ AI-powered ticket classification system using DistilBERT to automatically catego
 
 Classifies student support tickets into 5 categories and automatically routes them to appropriate departments based on confidence thresholds.
 
+MVP Screenshots
+1. Admin Dashboard - Analytics Overview
+The admin panel provides comprehensive platform analytics including total students, support tickets, AI resolutions, and satisfaction rates.
+<img width="1680" height="865" alt="Screenshot 2026-02-16 at 3 05 42 PM" src="https://github.com/user-attachments/assets/80df88c1-8991-4795-be50-f3db0b06aecc" />
+
 **Categories:** Assignment Issues | Grade Appeals | Capstone | Administrative | General Inquiry
 
 ## Performance
