@@ -1,4 +1,4 @@
-<img width="1919" height="929" alt="Screenshot 2026-02-15 at 3 24 40 PM" src="https://github.com/user-attachments/assets/4d28d8b2-6e46-44b9-a9e8-c51f1491c051" /># Academic Support Ticket Classifier
+# Academic Support Ticket Classifier
 
 AI-powered ticket classification system using DistilBERT to automatically categorize and route student support requests.
 
