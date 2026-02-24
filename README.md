@@ -9,13 +9,22 @@ Classifies student support tickets into 5 categories and automatically routes th
 MVP Screenshots
 1. Admin Dashboard - Analytics Overview
 The admin panel provides comprehensive platform analytics including total students, support tickets, AI resolutions, and satisfaction rates.
-<img width="1680" height="865" alt="Screenshot 2026-02-16 at 3 05 42 PM" src="https://github.com/user-attachments/assets/80df88c1-8991-4795-be50-f3db0b06aecc" />
-<img width="1902" height="927" alt="Screenshot 2026-02-15 at 3 23 18 PM" src="https://github.com/user-attachments/assets/7acebedd-9226-4ac6-ac80-74c983c91465" />
+<img width="1920" height="991" alt="image" src="https://github.com/user-attachments/assets/30fe2436-ba4a-43c9-b996-9e7c70b4c997" />
+<img width="1926" height="988" alt="image" src="https://github.com/user-attachments/assets/afcc461e-8046-4d28-9b4b-f3a2dc179bf7" />
+<img width="1916" height="987" alt="image" src="https://github.com/user-attachments/assets/9666e51f-7f03-4969-abbd-bdc42d418ceb" />
+
+
+
+
+
 
 4. Staff Directory - Find Your Facilitator
 Browse the ALU staff directory to find facilitators by name, department, or expertise. Shows availability status and office hours with direct booking capability.
-<img width="1680" height="958" alt="Screenshot 2026-02-16 at 2 53 43 PM" src="https://github.com/user-attachments/assets/c004a06a-aa93-4999-8a01-095d3fa91c24" />
-<img width="1919" height="929" alt="Screenshot 2026-02-15 at 3 24 40 PM" src="https://github.com/user-attachments/assets/c200d50d-55b5-4057-aec9-db00d48d58c8" />
+<img width="1922" height="991" alt="image" src="https://github.com/user-attachments/assets/fc709017-7e6d-40c1-a704-712b27aec9ad" />
+<img width="1920" height="991" alt="image" src="https://github.com/user-attachments/assets/800548d2-5729-4e1a-a1c1-9bf84f737c85" />
+
+
+
 
 
 
@@ -40,7 +49,7 @@ https://github.com/ktanguy/staffwork.git
 - **Platform:** Google Colab
   
 ## video tutorial:
-https://drive.google.com/file/d/1GTxEN4jurraM7mhB14F_0OjKRi9OPy3j/view?usp=sharing  
+https://drive.google.com/file/d/1kBy5YiX6fEwhBBOXdYHrUhb6KK1nOUB8/view?usp=sharing   
 
 ## Quick Start
 
